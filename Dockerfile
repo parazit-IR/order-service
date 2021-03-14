@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-alpine
+FROM adoptopenjdk/openjdk11
 VOLUME /tmp
 EXPOSE 8080
 ADD target/*.jar app.jar
